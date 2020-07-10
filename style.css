@@ -103,6 +103,10 @@ h6{
     width: 70px;
     border-radius: 50%;
     border: 2px solid black;
+    transition:transform 0.5s;
+}
+.footer img:hover{
+    transform: translateY(-10px);
     cursor: pointer;
 }
 .footer h2{
